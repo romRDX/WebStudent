@@ -1,4 +1,4 @@
-# WebStudent
+# Web Student
 
 Web Student é um blog criado no medium com o intuito de ensinar o básico de programação WEB.
 O conteúdo deve ser útil para quem nunca teve contato com HTML, CSS, JavaScript e tem interesses na área seja por hobbie ou vontade de aprender.
