@@ -1,0 +1,75 @@
+
+#sessao-1 {
+  width: 100%;
+  max-width: 800px;
+  height: 100%;
+  max-height: 450px;
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  border: 5px solid black;
+  margin: auto;
+  position: relative;
+  font-family: Arial, Helvetica, sans-serif;
+  
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-between;
+  align-content: space-evenly ;
+}
+
+.flappy {
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  top: 44%;
+  left: 10px;
+}
+
+#sessao-1 div {
+  width: 120px;
+  margin: 0 20px;
+  padding-top: 15px;
+}
+
+.elemento1 {
+  background: red;
+  height: 40%;
+}
+
+.elemento2 {
+  background: blue;
+  height: 40%;
+}
+
+.elemento3 {
+  background: green;
+  height: 50%;
+}
+
+.elemento4 {
+  background: black;
+  height: 30%;
+}
+
+.elemento5 {
+  background: purple;
+  height: 60%;
+}
+
+.elemento6 {
+  background: orangered;
+  height: 20%;
+}
+
+.elemento7 {
+  background: yellowgreen;
+  height: 50%;
+}
+
+.elemento8 {
+  background: pink;
+  height: 30%;
+}

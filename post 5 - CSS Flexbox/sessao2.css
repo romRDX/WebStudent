@@ -1,0 +1,193 @@
+#sessao-2 {
+  width: 100%;
+  padding: 2% 1%;
+  height: 550px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-around;
+  background: lightgray;
+}
+
+#sessao-2 .bloco-1, #sessao-2 .bloco-2, #sessao-2 .bloco-3 {
+  width: 21%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+#sessao-2 .fileira {
+  width: 100%;
+  height: 18%;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+#sessao-2 .fileira div {
+  width: 30%;
+  height: 100%;
+  border: 1.5px solid white;
+  text-align: center;
+  vertical-align: middle;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+/* BLOCO 1 ----------------------------------------------------------------------------- */
+
+#sessao-2 .bloco-1 .fileira div {
+  background: red;
+}
+
+#sessao-2 .bloco-2 .fileira div {
+  background: green;
+}
+
+#sessao-2 .bloco-3 .fileira div {
+  background: blue;
+}
+
+#sessao-2 .bloco-1 .es-1 {
+  align-self: flex-start;
+}
+
+#sessao-2 .bloco-1 .es-2 {
+  align-self: flex-start;
+}
+
+#sessao-2 .bloco-1 .es-3 {
+  align-self: flex-start;
+}
+
+#sessao-2 .bloco-1 .es-4 {
+  align-self: flex-start;
+}
+
+#sessao-2 .bloco-1 .es-5 {
+  align-self: flex-start;
+}
+
+#sessao-2 .bloco-1 .es-6 {
+  align-self: flex-start;
+}
+
+#sessao-2 .bloco-1 .es-7 { 
+  align-self: flex-start;
+}
+
+#sessao-2 .bloco-1 .es-8 { 
+  align-self: flex-start;
+}
+
+#sessao-2 .bloco-1 .es-9 { 
+  align-self: flex-start;
+}
+
+#sessao-2 .bloco-1 .es-10 { 
+  align-self: flex-start;
+}
+
+#sessao-2 .bloco-1 .es-11 { 
+  align-self: flex-start;
+}
+
+#sessao-2 .bloco-1 .es-12 { 
+  align-self: flex-end;
+}
+
+/* BLOCO 2 ----------------------------------------------------------------------------- */
+
+#sessao-2 .bloco-2 .es-1 {
+  align-self: flex-start;
+}
+
+#sessao-2 .bloco-2 .es-2 {
+  align-self: flex-start;
+}
+
+#sessao-2 .bloco-2 .es-3 {
+  align-self: flex-start;
+}
+
+#sessao-2 .bloco-2 .es-4 {
+  align-self: flex-start;
+}
+
+#sessao-2 .bloco-2 .es-5 {
+  align-self: flex-start;
+}
+
+#sessao-2 .bloco-2 .es-6 {
+  align-self: flex-start;
+}
+
+#sessao-2 .bloco-2 .es-7 { 
+  align-self: flex-start;
+}
+
+#sessao-2 .bloco-2 .es-8 { 
+  margin-left: auto;
+}
+
+#sessao-2 .bloco-2 .es-9 { 
+  align-self: flex-start;
+}
+
+#sessao-2 .bloco-2 .es-10 { 
+  align-self: flex-start;
+}
+
+#sessao-2 .bloco-2 .es-11 { 
+  align-self: flex-start;
+}
+
+/* BLOCO 3 ----------------------------------------------------------------------------- */
+
+#sessao-2 .bloco-3 .es-1 {
+  align-self: flex-start;
+}
+
+#sessao-2 .bloco-3 .es-2 {
+  align-self: flex-start;
+}
+
+#sessao-2 .bloco-3 .es-3 {
+  align-self: flex-start;
+}
+
+#sessao-2 .bloco-3 .es-4 {
+  align-self: flex-start;
+}
+
+#sessao-2 .bloco-3 .es-5 {
+  align-self: flex-start;
+}
+
+#sessao-2 .bloco-3 .es-6 {
+  align-self: flex-start;
+}
+
+#sessao-2 .bloco-3 .es-7 { 
+  align-self: flex-start;
+}
+
+#sessao-2 .bloco-3 .es-8 { 
+  margin-left: auto;
+}
+
+#sessao-2 .bloco-3 .es-9 { 
+  align-self: flex-start;
+}
+
+#sessao-2 .bloco-3 .es-10 { 
+  align-self: flex-start;
+}
+
+#sessao-2 .bloco-3 .es-11 { 
+  align-self: flex-start;
+}

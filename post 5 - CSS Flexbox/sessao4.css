@@ -1,0 +1,53 @@
+
+
+#sessao-4 {
+  width: 100%;
+  max-width: 800px;
+  height: 100%;
+  max-height: 450px;
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+  border: 5px solid black;
+  margin: auto auto 50px;
+  position: relative;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  
+  color: black;
+}
+
+#sessao-4 div {
+  width: 50%;
+  display: block;
+}
+
+#sessao-4 div p {
+  font-size: 18px;
+  font-weight: bold;
+  padding: 15px;
+}
+
+#sessao-4 div ul {
+  margin-left: 40px;
+}
+
+#sessao-4 .centralizado {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 100%;
+  border-left: 4px solid black;
+}
+
+
+#sessao-4 .centralizado div {
+  background: black;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 10px;
+  width: 130px;
+  padding: 10px;
+}

@@ -1,0 +1,87 @@
+.titulo-3 {
+  font-size: 18px;
+  font-weight: bold;
+  font-family: sans-serif;
+  margin: 70px auto 20px;
+  margin-left: 15%;
+}
+
+#sessao-3 {
+  width: 100%;
+  padding: 10px 0px 50px;
+}
+
+#sessao-3 .fileira {
+  display: flex;
+  width: 40%;
+  margin: auto;
+  justify-content: space-evenly;
+}
+
+#sessao-3 .fileira:first-child, #sessao-3 .fileira:last-child {
+  justify-content: center;
+}
+
+#sessao-3 .fileira div {
+  width: 100px;
+  height: 60px;
+  border: 1px solid black;
+}
+
+#sessao-3 .fileira div:first-child  {
+  border-top-left-radius: 50%;
+  border-bottom-right-radius: 0;
+  
+}
+
+#sessao-3 .fileira div:last-child {
+  border-top-right-radius: 50%;
+  border-bottom-left-radius: 0
+}
+
+#sessao-3 .fileira:nth-child(-n+5) div:first-child {
+  border-bottom-right-radius: 50%;
+  background: red;
+}
+
+#sessao-3 .fileira:nth-child(-n+5) div:first-child {
+  border-bottom-right-radius: 50%;
+}
+
+#sessao-3 .fileira:nth-child(-n+5) div:last-child {
+  border-bottom-left-radius: 50%;
+  background: blue;
+}
+
+#sessao-3 .fileira:nth-child(-n+5) div:last-child {
+  border-bottom-left-radius: 50%;
+}
+
+#sessao-3 .fileira:nth-child(5) div:first-child {
+  border-radius: 33%;
+  background: black;
+}
+
+#sessao-3 .fileira:nth-child(5) div:last-child {
+  border-radius: 33%;
+  background: black;
+}
+
+#sessao-3 .fileira:nth-child(n+6) div:first-child  {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 50%;
+  border-top-right-radius: 50%;
+  background: green;
+}
+
+#sessao-3 .fileira:nth-child(n+6) div:last-child  {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 50%;
+  border-top-left-radius: 50%;
+  background: yellow;
+}
+
+.circle {
+  border-radius: 50%;
+  background: radial-gradient(yellow 5% ,red 25%,green 45%, blue 65%  );;
+}
