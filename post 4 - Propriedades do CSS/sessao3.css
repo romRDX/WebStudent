@@ -1,0 +1,48 @@
+
+#sessao-3 {
+  width: 90%;
+  margin: 40px auto;
+  border: 2px solid black;
+  padding: 10px 20px;
+}
+
+#sessao-3 div {
+  margin: 0 auto;
+  border: 1px solid black;
+  display: inline-block;
+  width: 220px;
+  height: 60px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+}
+
+#sessao-3 div:first-child {
+  background: red;
+}
+
+#sessao-3 div:nth-child(2):hover {
+  background: black;
+}
+
+#sessao-3 div:nth-child(3) {
+  background: green;
+}
+
+#sessao-3 div:nth-child(4):hover {
+  border: 1px solid white;
+  color: white;
+}
+
+#sessao-3 div:nth-child(5) {
+  background: purple;
+}
+
+#sessao-3 div:nth-child(6):hover {
+  background: linear-gradient(90deg, purple, blue);
+}
+
+#sessao-3 div:last-child {
+  background: blue;
+}

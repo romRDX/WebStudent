@@ -6,11 +6,14 @@
     <meta name="descricao" content="Iniciando com HTML">
     <meta name="autor" content="WebStudent">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="sessao1.css">
+    <link rel="stylesheet" href="sessao2.css">
+    <link rel="stylesheet" href="sessao3.css">
+    <link rel="stylesheet" href="sessao4.css">
   </head>
   <body>
-    <header>
-      
 
+    <header>
       <img src="img/logo.png" />
       <h1>Web Student - Cabeçalho</h1>
     </header>
@@ -26,7 +29,14 @@
       </nav>
     </div>
     
-    
+    <section id="intro">
+      <p>Olá Estudantes, tudo bem ?</p>
+      <p>Para facilitar a visualização e estudo desse material, eu separei as propriedades CSS em 4 arquivos diferentes,
+         um para cada sessão desta página com os respectivos nomes. Assim fica tudo mais organizado e mais fácil de encontrar a proprieade que quiser dar uma olhada.
+         </p>
+    </section>
+
+      <h4>Sessão 1</h4>
       <section id="sessao-1">
         elemento 1
         <div class="elemento2">elemento 2</div>
@@ -34,6 +44,7 @@
         <div class="elemento4">elemento 4</div>
       </section>
 
+      <h4>Sessão 2</h4>
       <section id="sessao-2">
 
         <div class="bloco overflow">
@@ -65,9 +76,79 @@
         <div class="bloco fundo">
           <h2>Propriedade Background</h2>
         </div>
-        
-
       </section>
+
+      <h4>Sessão 3</h4>
+      <section id="sessao-3">
+        <div>Primeiro</div>
+        <div>passe o mouse</div>
+        <div>Terceiro</div>
+        <div>passe o mouse</div>
+        <div>Quinto</div>
+        <div>passe o mouse</div>
+        <div>Ultimo</div>
+      </section>
+
+      <h4>Sessão 4</h4>
+      <section id="sessao-4">
+        <div class="bloco-1">
+          <p>texto 1</p>
+          <p>texto 2</p>
+          <div>Primeiro</div>
+          <div>Segundo</div>
+          <p>texto 3</p>
+          <div>Terceiro</div>
+          <div>Quarto</div>
+        </div>
+
+        <div class="bloco-2">
+          <div>Primeiro</div>
+          <div>Segundo</div>
+          <div>Terceiro</div>
+          <div>Quarto</div>
+          <div>Quinto</div>
+          <div>Sexto</div>
+          <div>Setimo</div>
+          <div>Oitavo</div>
+        </div>
+
+        <div class="bloco-3">
+          <input placeholder="Digite seu nome" type="text">
+          <div>
+            <input type="radio" id="concordo" name="gender" value="concordo">
+            <label for="concordo">Concordo</label><br>
+            <input type="radio" id="discordo" name="gender" value="discordo">
+            <label for="discordo">Discordo</label><br>
+            <input type="radio" id="naosei" name="gender" value="naosei">
+            <label for="naosei">Não sei</label><br>
+          </div>
+
+          <div>
+            <input type="checkbox" id="vermelho" name="vermelho" >
+            <label for="vermelho">vermelho</label>
+            <input type="checkbox" id="verde" name="verde" >
+            <label for="verde">verde</label>
+            <input type="checkbox" id="azul" name="azul" >
+            <label for="azul">azul</label>
+            <input type="checkbox" id="amarelo" name="amarelo" >
+            <label for="amarelo">amarelo</label>
+          </div>
+
+          <div>
+            <select name="animais" id="animais">
+              <option value="gato">gato</option>
+              <option value="cachorro">cachorro</option>
+              <option value="passaro">passaro</option>
+              <option value="peixe">peixe</option>
+            </select>
+          </div>
+          
+        </div>
+
+        
+      
+      </section>
+
     <footer>Rodapé</footer>
   </body>
 </html>

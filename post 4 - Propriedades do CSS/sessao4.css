@@ -1,0 +1,115 @@
+
+#sessao-4 {
+  width: 100%;
+  height: 300px;
+  border: 1px solid black;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+#sessao-4 .bloco-1, #sessao-4 .bloco-2, #sessao-4 .bloco-3 {
+  width: 30%;
+  height: 90%;
+  margin: 0 15px;
+  border: 1px solid black;
+  display: block;
+  float: left;
+  padding: 15px;
+}
+
+#sessao-4 .bloco-1 div {
+  margin: 5px auto;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+#sessao-4 .bloco-1 p {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+#sessao-4 .bloco-1 p:first-child{
+  color: blue;
+}
+
+#sessao-4 .bloco-1 div:first-of-type {
+  color: red;
+}
+
+#sessao-4 .bloco-1 div:last-child{
+  color: green;
+}
+
+#sessao-4 .bloco-1 p:last-of-type {
+  color: orange;
+}
+
+#sessao-4 .bloco-2 {
+  padding: 20px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+#sessao-4 .bloco-2 div:nth-child(-n+2) {
+  color:red;
+}
+
+#sessao-4 .bloco-2 div:nth-child(4) {
+  color: blue;
+}
+
+#sessao-4 .bloco-2 div:nth-child(n+6) {
+  color:green;
+}
+
+#sessao-4 .bloco-3 {
+  padding: 20px;
+}
+
+#sessao-4 .bloco-3 input {
+  padding: 8px 5px;
+  border: 5px solid black;
+  box-sizing: border-box;
+  margin: auto;
+}
+
+#sessao-4 .bloco-3 div {
+  margin: 15px auto;
+}
+
+#sessao-4 .bloco-3 label {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+#sessao-4 .bloco-3 input:focus{
+  border: 5px solid red; 
+}
+
+#sessao-4 .bloco-3 div:nth-child(2) input:checked{
+  margin-left: 10px;
+}
+
+#sessao-4 .bloco-3 div:nth-child(3) input{
+  margin: 2px 6px;
+}
+
+#sessao-4 .bloco-3 div:nth-child(3) input:checked + label{
+  color: red;
+}
+
+#sessao-4 .bloco-3 select {
+  padding: 8px 5px;
+  border: 1px solid black;
+}
+
+#sessao-4 .bloco-3 div:first-child input:last-child:checked {
+  color: red;
+}

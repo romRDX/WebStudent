@@ -1,0 +1,115 @@
+
+#sessao-2 {
+  margin: 0 auto;
+  padding: 10px;
+  width: 90%;
+  height: 100%;
+  max-height: 400px;
+  background: lightyellow;
+  border: 4px dotted black;
+
+  /* PRÉVIA DO PRÓXIMO POST */
+  display: flex;
+  justify-content: space-around;
+}
+
+#sessao-2 .bloco {
+  width: 18%;
+  height: 60%;
+  margin: auto;
+  border: 1px solid black;
+}
+
+.overflow {
+  padding: 8px;
+  overflow-y: scroll;
+}
+
+.overflow h3 {
+  font-weight: bold;
+  font-size: 25px;
+  margin-bottom: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.cursor {
+  padding: 8px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.cursor h2 {
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.cursor p {
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.cursor .maozinha {
+  margin-top: 10px;
+  cursor: grab;
+}
+
+.cursor .nao-pode {
+  cursor: not-allowed;
+}
+
+.cursor .aguardo {
+  cursor: wait;
+}
+
+.cursor .mais {
+  cursor: cell;
+}
+
+
+.sombra {
+  padding: 10px;
+  box-shadow: 3px 3px 3px black;
+}
+
+.sombra h2 {
+  display: block;
+  margin-bottom: 12px;
+}
+
+.sombra div {
+  display: block;
+  width: 80%;
+  height: 65%;
+  margin: auto;
+  border: 1px solid black;
+  display: flex;
+}
+
+.sombra .s1 {
+  box-shadow: -10px 0px 0px black;
+}
+
+.sombra .s2 {
+  box-shadow: 0px 14px 12px black;
+}
+
+.sombra .s3 {
+  box-shadow: 0px 0px 12px red;
+}
+
+
+
+.fundo {
+  padding: 10px;
+  background: linear-gradient(90deg, #020024 0%, #090979 35%, #00d4ff 100%);
+}
+
+.fundo h2 {
+  color: white;
+  font-family: Arial;
+  font-size: 18px;
+}
+
+.visibilidade {
+  visibility: hidden;
+}
